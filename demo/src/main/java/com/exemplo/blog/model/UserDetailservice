@@ -1,0 +1,9 @@
+@Bean
+public UserDetailsService userDetailsService() {
+    UserDetails user = User.withDefaultPasswordEncoder()
+        .username("Ester_Araujo")
+        .password("Araujo2008")
+        .roles("USER")
+        .build();
+    return new InMemoryUser DetailsManager(user);
+}

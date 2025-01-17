@@ -1,0 +1,7 @@
+spring.security.user.name=Ester_Araujo
+spring.security.user.password=Araujo2008
+spring.security.user.roles=USER
+
+spring.datasource.url=jdbc:mysql://localhost:8080/seu_banco
+spring.datasource.username=Ester_Araujo
+spring.datasource.password=Araujo2008
